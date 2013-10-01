@@ -1,39 +1,60 @@
-<p>
-    <i>( Describe task in general )</i>
-</p>
+<div class="story">
+
+    <p>The door of the pyramid rumbled and shook itself open. Inside the door was what appeared to be another wall.</p>
+
+    <p>“Oh man, that’s not very interesting at all.” Sofia complained.</p>
+
+    <p>The wall within the door hissed and a jet of ice cold steam billowed out. The wall began moving out the door as
+        if it were being pushed. Sofia and the other two stepped back, watching their feet. The wall finally stopped
+        moving and revealed itself to be a large chest of some sort. </p>
+
+    <p>“Oh man, more treasure?” Sofia studied the chest intently.</p>
+
+    <p>Nikola poked his head through the doorway where the chest had just exited. “Well, there’s nothing in there but
+        darkness.” He turned to the chest which stood several feet taller than him and began studying it himself. He
+        noticed some carvings on the side. “Hey, this looks like a manifest of some sort. Or a contents label. Look,
+        there Ag, Na, Li, Mg... all raw materials we could use to fabricate the parts we need to fix the Oddyseus!”</p>
+
+    <p>“That’s great, but there’s a keypad on it. It’s locked.” Sofia said with a frustrated sigh.</p>
+
+    <p>“No problem, we can solve it. Let’s take a look!”</p>
+</div>
+
+<p>On the chest keypad is a grid of numbered dots. The grid is comprised of a square array of dots and contains lines
+    that connect some pairs of adjacent dots. The answer to the code is the number of squares that are formed by these
+    lines. For example, in the figure shown below, there are 3 squares: 2 small squares and 1 medium square.</p>
+
+<img class="for_info_only" src="{{ MEDIA }}squares-chest.png"/><br>
+
+<img class="for_editor_only" src="{{ MEDIA }}squares-chest.png" width="380px"/><br>
 
 <p>
-    Sum two passed ints
-</p>
-
-<p style="text-align: center;">
-    <img class="for_info_only" title="example" src="{{MEDIA}}example.png" alt="example" width="392px"/>
-    <img class="for_editor_only" title="example" src="{{MEDIA}}example.png" alt="example" width="380px"/>
-</p>
-
-<p><i>( Explain input and output values )</i></p>
-<p>
-    <strong>Input: </strong> Two arguments. Both are int
+    The dots are marked by the numbers 1 through 16. The endpoints of the lines are represented by lists of two numbers.
 </p>
 
 <p>
-    <strong>Output: </strong> Int. 
-</p>
+    <strong>Input:</strong>
+    A list of lists. Each list consists of the two numbers which represent the endpoints of the line.
+<p>
 
-
+<p>
+    <strong>Output:</strong>
+    The quantity of squares formed. An integer.
+<p>
 
 <div class="for_info_only">
-    <p><i>( Put some usage examples )</i></p>
-    <p>
-        <strong>Example:</strong>
-    </p>
-    <pre class="brush: python">
-checkio(3, 2) == 5
-checkio(5, 7) == 12
-    </pre>
+    <p><strong>Example:</strong>
+
+<pre class="brush: python">checkio([[1,2],[3,4],[1,5],[2,6],[4,8],[5,6],[6,7],
+    [7,8],[6,10],[7,11],[8,12],[10,11],
+    [10,14],[12,16],[14,15],[15,16]]) == 3
+checkio([[1,2],[2,3],[3,4],[1,5],[4,8],
+    [6,7],[5,9],[6,10],[7,11],[8,12],
+    [9,13],[10,11],[12,16],[13,14],[14,15],[15,16]]) == 2
+</pre>
 </div>
 
 <p class="for_info_only">
-    <strong>How it is used: </strong>
-    <i>(Here you can explain how it can be used in development and what is usage of this.)</i>
+    <!--<strong>How it is used: </strong>-->
+
 </p>
