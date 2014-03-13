@@ -22,10 +22,12 @@
     <p>“No problem, we can solve it. Let’s take a look!”</p>
 </div>
 
-<p>On the chest keypad is a grid of numbered dots. The grid is comprised of a square shaped array of dots and contains
-    lines
-    that connect some pairs of adjacent dots. The answer to the code is the number of squares that are formed by these
-    lines. For example, in the figure shown below, there are 3 squares: 2 small squares and 1 medium square.</p>
+<p>
+    On the chest keypad is a grid of numbered dots.
+    The grid is comprised of a square shaped array of dots and contains lines
+    that connect some pairs of adjacent dots.
+    The answer to the code is the number of squares that are formed by these lines.
+    For example, in the figure shown below, there are 3 squares: 2 small squares and 1 medium square.</p>
 
 <img class="for_info_only" src="{{ MEDIA }}squares-chest.png"/><br>
 
@@ -37,32 +39,39 @@
 
 <p>
     <strong>Input:</strong>
-    A list of lists. Each list consists of the two numbers which represent the endpoints of the line.
+    A list of lines as a list of list. Each list consists of the two integers.
 <p>
 
 <p>
     <strong>Output:</strong>
-    The quantity of squares formed. An integer.
+    The quantity of squares formed as an integer.
 <p>
 
 <div class="for_info_only">
     <p><strong>Example:</strong>
 
-<pre class="brush: python">checkio([[1,2],[3,4],[1,5],[2,6],[4,8],[5,6],[6,7],
-    [7,8],[6,10],[7,11],[8,12],[10,11],
-    [10,14],[12,16],[14,15],[15,16]]) == 3
-checkio([[1,2],[2,3],[3,4],[1,5],[4,8],
-    [6,7],[5,9],[6,10],[7,11],[8,12],
-    [9,13],[10,11],[12,16],[13,14],[14,15],[15,16]]) == 2
+<pre class="brush: python">checkio([[1, 2], [3, 4], [1, 5], [2, 6], [4, 8], [5, 6], [6, 7],
+     [7, 8], [6, 10], [7, 11], [8, 12], [10, 11],
+     [10, 14], [12, 16], [14, 15], [15, 16]]) == 3
+checkio([[1, 2], [2, 3], [3, 4], [1, 5], [4, 8],
+     [6, 7], [5, 9], [6, 10], [7, 11], [8, 12],
+     [9, 13], [10, 11], [12, 16], [13, 14], [14, 15], [15, 16]]) == 2
 </pre>
 </div>
 
-<!--<p class="for_info_only">-->
-<!--<strong>How it is used: </strong>-->
+<p class="for_info_only">
+<strong>How it is used: </strong>
+    This is a simple puzzle that show you how to use coding for the pattern search problems.
+    For the more complex cases you can improve your program and it can help the searching various objects.
+</p>
 
-<!--</p>-->
+
+<p>
+    <strong>Precondition:</strong> |dots| == 16<br>
+</p>
 
 <p class="for_info_only">
     <strong>How to use TryIt: </strong><br>
     <iframe width="420" height="315" src="//www.youtube.com/embed/JXamK04g3-Y" frameborder="0" allowfullscreen></iframe>
 </p>
+
