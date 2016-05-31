@@ -1,0 +1,55 @@
+<p>
+    Dans le plan, 16 points numérotés de 1 à 16 sont répartis sur une grille carrée de côté de longueur 4.
+    Des lignes sur les côtés adjacents de certaines des petites cases sont tracées, et relient certains couples de points.
+    On demande ici de déterminer le nombre de carrés formés par cette figure.
+    Par exemple, dans la figure ci-dessous, 3 carrés sont formés : 2 petits carrés et un carré moyen.
+</p>
+
+<img class="for_info_only" src="{{ MEDIA }}squares-chest.png"/><br>
+
+<img class="for_editor_only" src="{{ MEDIA }}squares-chest.png" width="380px"/><br>
+
+<p>
+    Les points sont numérotés de 1 à 16. Les extrémités des traits tracés sur la figure 
+    sont représentées par des listes de deux nombres : 
+    les deux numéros des extrémités du segment.
+</p>
+
+<p>
+    <strong>Input:</strong>
+    Une liste de segments, comme liste de listes de deux entiers.
+<p>
+
+<p>
+    <strong>Output:</strong>
+    Le nombre de carrés formés sur la figure, comme entier.
+<p>
+
+<div class="for_info_only">
+    <p><strong>Exemple:</strong>
+
+<pre class="brush: python">checkio([[1, 2], [3, 4], [1, 5], [2, 6], [4, 8], [5, 6], [6, 7],
+     [7, 8], [6, 10], [7, 11], [8, 12], [10, 11],
+     [10, 14], [12, 16], [14, 15], [15, 16]]) == 3
+checkio([[1, 2], [2, 3], [3, 4], [1, 5], [4, 8],
+     [6, 7], [5, 9], [6, 10], [7, 11], [8, 12],
+     [9, 13], [10, 11], [12, 16], [13, 14], [14, 15], [15, 16]]) == 2
+</pre>
+</div>
+
+<p class="for_info_only">
+<strong>Application: </strong>
+    C'est un casse-tête simple qui illustre l'idée de reconnaissance des formes.
+    Pour des cas plus sophistiqués, améliorez votre programme afin qu'il recherche des figures plus complexes.
+</p>
+
+
+<p>
+    <strong>Préconditions:</strong><br>
+    0 &lt; len(lines) &le; 32<br>
+</p>
+
+<p class="for_info_only">
+    <strong>Comment utiliser TryIt: </strong><br>
+    <iframe width="420" height="315" src="//www.youtube.com/embed/JXamK04g3-Y" frameborder="0" allowfullscreen></iframe>
+</p>
