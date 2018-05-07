@@ -1,4 +1,6 @@
-def checkio(lines_list):
+from typing import List
+
+def checkio(lines_list: List[List[int]]) -> int:
     """Return the quantity of squares"""
     return 0
 
